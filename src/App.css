@@ -42,3 +42,32 @@ div.post {
 div.post div.image {
   width: 40%;
 }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background-image {
+  background-image: url('background.jpg'); /* Replace with your background image path */
+  height: 100vh; /* Full height of the viewport */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Cover the entire page */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the logo vertically and horizontally */
+}
+
+.logo-container {
+  width: 200px; /* Adjust based on your logo size */
+  height: 200px; /* Adjust based on your logo size */
+  opacity: 0.8; /* Make the logo a bit transparent */
+}
+
+.logo {
+  width: 100%; /* Make the logo fill the container */
+  height: auto; /* Keep the aspect ratio */
+  display: block;
+}
